@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" />
-    <title>blogs | HenryRoy</title>
+    <title>blogs | henryroy</title>
 </head>
+
 <body>
     <nav class="navigation container">
         <div class="nav-brand">HenryRoy</div>
@@ -23,34 +25,29 @@
     </nav>
 
     <header class="hero">
-        <h1 class="hero-heading">read my <span class="heading-inverted">blogs</span></h1>
+        <h1 class="hero-heading">DOM Selectors</h1>
     </header>
 
-    <ul class="list-non-bullet">
+    <article class="container-center showcase-blog">
+        <p>
+            DOM Selectors, as the name suggests is used to select HTML elements within a document using JavaScript. There are 5 ways in which you can select elements in a DOM using selectors.
+<br />    <br />
+getElementsByTagName()<br />
+getElementsByClassName()<br />
+getElementById()<br />
+querySelector()<br />
+querySelectorAll()<br /><br />
+All those methods are properties of the document object. So in order to use one, we should prefix those elements with the document object as, <br /><br />
 
-        <li>
-            <article class="showcase-list container container-center ">
-                <h1>JavaScript Data Types</h1>
-            <small>December, 2022</small>
-            <p>Data types help to provide a better understanding of the language and its behaviour. Today, with the help of this tutorial, we will cover one of the most important concepts that we need to learn to master JavaScript.</p>
+document.getElementsByTagName()<br />
+document.getElementsByClassName()<br />
+document.getElementById()<br />
+document.querySelector()<br />
+document.querySelectorAll()<br />
+        </p>
+        
+    </article>
 
-            <a class="link link-primary" href="dummy-blog.html">Read More</a>
-            </article>
-            
-        </li>
-
-        <li>
-            <article class="showcase-list container container-center ">
-                <h1>DOM Selectors</h1>
-                <small>December, 2022</small>
-                <p>DOM Selectors, as the name suggests is used to select HTML elements within a document using JavaScript. There are 5 ways in which you can select elements in a DOM using selectors.</p>
-    
-                <a class="link link-primary" href="detailedblog2.html">Read More</a>
-                 </article>
-            
-        </li>
-
-    </ul>
 
     <footer class="footer">
         <div class="footer-header">social media presence</div>
@@ -73,6 +70,7 @@
             
         </ul>
     </footer>
-    
+
 </body>
+
 </html>
